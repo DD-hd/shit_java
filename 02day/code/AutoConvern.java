@@ -3,6 +3,8 @@ public class AutoConvern {
         int a = 6;
         // int 可以自动转换为float类型
         float f = a;
+        // 不能转化，会出现精度损失
+        // int a1 = f;
         // 下面输出6.0
         System.out.println(f);
 

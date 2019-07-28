@@ -1,3 +1,4 @@
-set gg=./%1
-cd %gg%
-java %2 
+cd %dir
+
+javac -encoding utf8 %1.java
+java %1 
