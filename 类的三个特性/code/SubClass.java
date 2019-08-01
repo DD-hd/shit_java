@@ -19,5 +19,9 @@ public class SubClass extends BaseClass {
         sc.accessOwner();
         // 输出5
         sc.accessBase();
+
+        BaseClass bs = new SubClass();
+        System.out.println(bs.a);
+
     }
 }
