@@ -1,6 +1,6 @@
 class VarClass {
 
-    private int i;
+    private final int i=1;
 
     {
         System.out.println("初始化代码");
